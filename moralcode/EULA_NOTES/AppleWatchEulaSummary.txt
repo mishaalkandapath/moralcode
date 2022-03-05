@@ -1,0 +1,28 @@
+==EULA SUMMARRY FOR APPLE WATCH==
+1. Liscensed not owned
+2. Cannot distribute, develop (need different liscense), 
+	or mess with the code. No using the technology for
+	illicit purposes. Services may vary by region
+	
+
+	(g) Auto App installs (can be disabled)
+	(i) not a medical device
+	(j) Dont excersise using apple watch, consuld doctor
+	(k)memojis can only be used personnally and non-commmercially.
+
+3. Transfer, you can sell product with license wholly.
+
+4. Consent to privacy (see Privacy policy)
+
+5. (a) Apps have their own licenses
+	(b) You also agree
+	(c) Maps uses location data (can be disabled)
+	(d) Apple not responsible for internet data
+	(f) Apple not responsible for accuracy of data presented
+	(g) No hacking, duplicating, or using product to stalk.
+
+6. Failure to comply terminates license.
+7. Warranties, essentially apple is not responsible for anything unless
+	the law says otherwise
+12. No matter the translation of this EULA to comply with local laws
+	(English takes precedence)

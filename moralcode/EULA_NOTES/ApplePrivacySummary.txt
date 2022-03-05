@@ -1,0 +1,42 @@
+==Apple Privacy Eula Summarry==
+1. You Can Delete, Know, and Edit your data
+	- However apple can deny it when legally required
+
+2. Apple Collects from you
+	- Account info
+	- Dev info
+	- Contact Info
+	- Payment Info
+	- Transaction info
+	- transaction info
+	- Usage Dta
+	- Location Data
+	- Health Data (Physical and Mental)
+	- Fitness info
+	- Government ID (as required by law)
+
+3. Apple Collects from others
+	- Your info from other individuals
+	- Third parties at your direction (ie. apps that you use)
+	- Apple Partners
+	- For R&D purposes, Apple will buy potentially identifying data.
+		(but will not reidentify people in the data)
+
+4. Apple's Use of Data
+	- To comply with laws
+	- whenever in legitimate interests of Apple or apple partners
+	- Power services
+	- process transactions
+	- communicate
+	- personalization
+
+5. Apple Shares Data With Others
+	- Third parties conduct services
+	- At your direction (Terms of services of other apps you use)
+
+6. Cookies
+	- Cookies to assessapples advertisements
+
+7. International transfers of data
+	- Apple will transfer data to other entities around the world
+	- these may be different entities related to Apple.
