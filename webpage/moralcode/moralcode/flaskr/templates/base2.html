@@ -1,0 +1,36 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} Yu's website
+
+
+
+</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<body>
+<div>
+<img src="/flaskr/templates/header.png" alt="User Image" style="width:100%">
+</div>
+<div class="container">
+        <h1 class="logo">Ardit's web app</h1>
+        <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('web.home') }}">Home</a></li>
+            <li><a href="{{ url_for('web.home') }}">About</a></li>
+          </ul>
+        </nav></strong>
+      </div>
+
+<nav>
+  <h1>Yu's website</h1>
+</nav>
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>
+
+
+</body>

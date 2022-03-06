@@ -1,0 +1,72 @@
+{% extends 'base2.html' %}
+
+{% block header %}
+  <h1><p style="text-align:center">{% block title %}Banner{% endblock %}</p></h1>
+{% endblock %}
+
+
+{% block content %}
+<p style="text-align:center">placeholder</p>
+  <form method="get">
+    <input type="submit" value="home">
+  </form>
+  <form method="post">
+    <input type="search" name="search" id="search_bar" required>
+    <input type="submit" value="Search">
+  </form>
+
+<div id=search_results>
+{% if results != [] %}
+	{% for i in results %}
+			
+			<svg id = "this_box" width="1000" height="240">
+
+				<style>
+				.small { font: 20px sans-serif; }
+				.heavy { font: bold 30px sans-serif; }
+				.medium { font: bold 25px sans-serif; }
+				.Rrrrr { font: italic 40px serif; fill: red; }
+				
+				</style>
+			<rect x="490" y="20" width="500" height="200" rx="5" ry="5"
+			style="fill:white;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:0.9" />
+			
+			<text x="500" y="50" class="heavy" fill="black">{{search_list[i][-2]}}</text>
+			<text x="700" y="80" class="small" fill="black">Grade: {{search_list[i][0].upper()}}</text>
+			<text x="700" y="110" class="small" fill="black">TOS Readability: {{search_list[i][1].upper()}}</text>
+			<text x="740" y="170" class="medium" fill="black">Learn More</text>
+			<image x = "515" y = "60" height="150" width="150" href={{search_list[i][-1]}}>
+			
+			<a class="button" href="{{ url_for('auth.login') }}">Flask Trial</a>
+			
+			
+			</svg>
+			<form method="post">
+				<input type="submit" value="Learn More">
+			</form>
+			<!-- <style>
+			@keyframes open_rest {
+				0%   { left:0px; top:0px;}
+				100%  { left:-300px; top:0px;}
+				
+			}
+			#this_box {
+				animation-name: open_rest;
+				animation-duration: 1s;
+				position: relative;
+				animation-fill-mode: forwards;
+			}
+			
+			</style> -->
+
+	{% endfor %}
+{% else %}
+	<p style="text-align:center">No Results</p>
+{% endif %}
+<div>
+
+
+
+{% endblock %}
+
+
