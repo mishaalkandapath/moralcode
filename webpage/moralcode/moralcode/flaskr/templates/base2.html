@@ -6,31 +6,21 @@
 </title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 <body>
-<div>
-<img src="/static/header.png" alt="User Image" style="width=110%">
-</div>
-<div class="container">
-        
-        <strong><nav>
-          <ul class="menu">
-            <li><a href="{{ url_for('web.realhome') }}">Home</a></li>
-            <li><a href="{{ url_for('web.home') }}">Search</a></li>
-          </ul>
-        </nav></strong>
-      </div>
-
-<nav>
-  <h1>Yu's website</h1>
-</nav>
-<section class="content">
-  <header>
-    {% block header %}{% endblock %}
-  </header>
-  {% for message in get_flashed_messages() %}
-    <div class="flash">{{ message }}</div>
-  {% endfor %}
-  {% block content %}{% endblock %}
-</section>
-
-
+  <div class="menu-outer">
+    <div class="header-text">
+      <img src="/static/logo_and_font.png" alt="logo" style="width: 40%; height: 60%">
+    </div>
+    <div class="table">
+      <ul id="horizontal-list">
+        <li><a href="{{ url_for('web.realhome') }}">Home</a></li>
+        <li><a href="{{ url_for('web.home') }}">Search</a></li>
+      </ul>
+    </div>
+  </div>
+  <section class="content" style="background-color:#37c5ec; height: 100vh">
+    {% for message in get_flashed_messages() %}
+      <div class="flash">{{ message }}</div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+  </section>
 </body>
