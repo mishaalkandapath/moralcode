@@ -1,0 +1,50 @@
+<H3>Apple Privacy Eula Summarry</H3>
+
+<ul>
+
+<li>🟥The watch is liscensed not owned</li>
+<li>🟥Cannot distribute or develop</li>
+<li>🟥On warranties, apple is essentially not responsible for anything unless the local law says otherwise</li>
+<li>🟥Apple can deny you to delete your data</li>
+<li>Apple collects data from you
+    <ul>
+      <li>🟩Account info</li>
+      <li>🟩Dev info</li>
+      <li>🟨Contact Info</li>
+      <li>🟨Payment and Transcation Info</li>
+      <li>🟥Usage Data</li>
+      <li>🟥Location Data</li>
+      <li>🟥Health and Fitness Data (Physical and Mental)</li>
+      <li>🟩Government ID (as required by law)</li>
+   </ul>
+</li>
+<li>Info Apple collects from others
+   <ul>
+      <li>🟨Our info from other individuals</li>
+      <li>🟨Third parties at your direction (ie. apps that you use)</li>
+      <li>🟥Apple Partners</li>
+      <li>🟨For R&D purposes, Apple will buy potentially identifying data</li>
+    </ul>
+</li>
+<li>Apple's Use of Data
+   <ul>
+      <li>🟩To comply with laws (takes precident)</li>      
+      <li>🟥Whenever in legitimate interests of Apple or apple partners</li>    
+      <li>🟨Power services (monitors power usage)</li>    
+      <li>🟨Process transactions</li>    
+      <li>🟥Communications (it knows if you haven't called grandma)</li>    
+      <li>🟨Personalization preferences</li>
+   </ul>
+</li>
+<li>Apple shares your data with others
+   <ul>
+      <li>🟥Third parties conduct services</li>      
+      <li>🟨At your direction (terms of services of other apps you use)</li>
+      <li>🟨Cookies to assess apples advertisements</li>
+      <li>🟥Apple will transfer data to other entities around the world</li>
+      <li>🟥These may be different entities related to Apple.</li>
+   </ul>
+</li>
+
+
+
