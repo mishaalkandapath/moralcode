@@ -59,6 +59,23 @@ def home():
                             search_input = search_input,
                             results = results,
                             search_list = search_list)
+                            
+@bp.route('/realhome', methods=('GET', 'POST'))
+def realhome():
+
+            
+            #try:
+            #    db.execute(
+            #        "INSERT INTO user (username, password) VALUES (?, ?)",
+            #        (username, generate_password_hash(password)),
+            #    )
+            #    db.commit()
+            #except db.IntegrityError:
+            #    error = f"User {username} is already registered."
+            #else:
+                #return redirect(url_for("auth.login"))
+
+    return render_template('web/web2.html')
     
     
     
