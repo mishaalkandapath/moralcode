@@ -7,6 +7,7 @@ body {
 /*
  * Formatting the header area
  */
+/*
 header {
   background-color: #DFB887;
   height: 35px;
@@ -25,6 +26,32 @@ header h1.logo:hover {
   color: #fff;
   text-decoration: none;
 }
+	*/
+/*
+ * navbar bolding
+ */
+nav {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	/* 
+  if we did this instead of the template it would be a problem:
+  grid-auto-flow: column;
+  */
+	margin-left: 85%;
+	font: 120% system-ui;
+	padding: 2rem 1rem;
+	margin-right: 1%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+	a:hover {
+		font-weight: 700;
+	}
 /*
  * Centering the body content
  */
@@ -215,6 +242,7 @@ h5{
   position: relative;
   height: 35px;
   width: 35px;
+  top: 25px;
   box-sizing: border-box;
   margin: 0px 8px 7px 0px;
   padding: 7px 9px 0px 9px;
@@ -229,7 +257,7 @@ h5{
   width: 3px;
   height: 20px;
   right: -5px;
-  top: 21px;
+  top: 22px;
   background: #ffffff;
   border-radius: 3px;
   transform: rotate(-45deg);
@@ -255,6 +283,66 @@ h5{
   outline-width: 0px;
 }
 
-.search_results{
-  margin-left: 33%;
+.search_results {
+	text-align: center;
+}
+
+.this_box {
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.rectangle {
+	margin: auto;
+	margin-top: 3%;
+	border-radius: 25px;
+	border: 4px solid #000000;
+	padding: 20px;
+	width: 450px;
+	height: 200px;
+	background: white;
+	text-align: left;
+}
+
+.rectangle p {
+	color: black;
+	font-size: 22px;
+	font-family: sans-serif;
+	position: relative;
+	font-weight: 200;
+	top: -10%;
+	left: 40%;
+
+}
+
+.visual {
+	top: -60%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.rectangle header {
+	height: 35px;
+	width: 100%;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: sans-serif;
+	position: relative;
+	top: -8%;
+}
+
+.cssbutton {
+	background-color: #0d86ad;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	position: absolute;
+	right: 40%;
+	margin-top: 10%;
 }
